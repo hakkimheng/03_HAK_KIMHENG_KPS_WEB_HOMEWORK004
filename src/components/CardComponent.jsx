@@ -44,6 +44,7 @@ export default function CardComponent({projects}) {
         dateline = "Dateline Today";
       }else if(daysDiff === 1){
         dateline = "1 day left";
+
       }
       else{
         dateline = daysDiff + " days left";
